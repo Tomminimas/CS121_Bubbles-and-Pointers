@@ -13,6 +13,16 @@ int main()
     call printValues with the array
     return 0
 ```
+### printValues
+```
+void printValues(int*)
+    take an int pointer representing the array
+    print"["
+    step through the array with a for loop
+        print each number of the array with a space after it
+    print "]" and a new line at the end
+    return void
+```
 
 ### swap
 ```
@@ -22,7 +32,7 @@ void swap(int*a, int*b)
     copy the value at a to temp
     copy the value at b to a
     copy temp to b
-    return temp to b
+    return void
 ```
 
 ### sort
@@ -34,6 +44,6 @@ void sort(int*)
         for j from 0 up to MAX -1
             if the number at j is bigger than the number at j + 1
                 call swap with the address of j and the address of j + 1
-                cal printValues with the array
+                call printValues with the array
     return void
 ```
